@@ -4,6 +4,7 @@ import com.sun.istack.internal.Nullable;
 import exception.CannotAddProductException;
 import products.Product;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Container<T extends Product> {
@@ -31,6 +32,26 @@ public class Container<T extends Product> {
         }
         return result;
     }
+
+    public T getFirstAndRemove() {
+        T result = elements.get(0);
+        elements.remove(0);
+        return result;
+    }
+
+    public T getFirst() {
+        return elements.get(0);
+    }
+
+    public ArrayList<T> addToStack(T element){
+        ArrayList<T> newElements = new ArrayList<>(elements.size() + 1);
+        newElements.add(0,element);
+        for (int i = 0; i < newElements.size(); i++) {
+            newElements.add(i+1, elements.get(i));
+        }
+        return newElements;
+    }
+
 
     @Override
     public String toString() {
