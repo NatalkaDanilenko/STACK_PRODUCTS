@@ -1,14 +1,12 @@
 package stack;
 
-import com.sun.istack.internal.Nullable;
 import exception.CannotAddProductException;
 import products.Product;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+import java.util.List;
 
 public class Container<T extends Product> {
-    private ArrayList<T> elements = new ArrayList<>();
+    private List<T> elements;
     public Container() {
     }
 
@@ -17,20 +15,8 @@ public class Container<T extends Product> {
             throw new IllegalArgumentException("Product not found and can not add to Container.");
         }
         if (flag){
-        elements.add(element);} else
+        addFirst(element);} else
             throw new CannotAddProductException("Can not add product from blackList");
-    }
-
-    @Nullable
-    public T getAndRemove(T element) {
-        T result = null;
-        for (T product : elements) {
-            if (product.equals(element)) {
-                result = product;
-                elements.remove(product);
-            }
-        }
-        return result;
     }
 
     public T getFirstAndRemove() {
@@ -43,13 +29,8 @@ public class Container<T extends Product> {
         return elements.get(0);
     }
 
-    public ArrayList<T> addToStack(T element){
-        ArrayList<T> newElements = new ArrayList<>(elements.size() + 1);
-        newElements.add(0,element);
-        for (int i = 0; i < newElements.size(); i++) {
-            newElements.add(i+1, elements.get(i));
-        }
-        return newElements;
+    public void addFirst(T element){
+        elements.add(0,element);
     }
 
 
