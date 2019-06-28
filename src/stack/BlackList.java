@@ -1,11 +1,13 @@
 package stack;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BlackList {
-    private List trueClasses;
+    private List<Class> trueClasses;
 
     public BlackList() {
+        trueClasses = new ArrayList<>();
     }
 
     public void setTrueClasses(Class classM) {
