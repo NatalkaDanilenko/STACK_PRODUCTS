@@ -38,9 +38,10 @@ public class Tea implements Product {
 
     @Override
     public String toString() {
-        return "Tea{" +
-                "color='" + color + '\'' +
-                ", price=" + price +
+        return "Tea {" +
+                "name =" + name +
+                ", color =" + color +
+                ", price =" + price +
                 '}';
     }
 }

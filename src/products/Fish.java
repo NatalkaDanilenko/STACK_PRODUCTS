@@ -58,11 +58,12 @@ public class Fish implements Product {
 
     @Override
     public String toString() {
-        return "Fish{" +
-                "type='" + type + '\'' +
-                ", price=" + price +
-                ", weight=" + weight +
-                ", frozen=" + frozen +
+        return "Fish {" +
+                "name =" + name +
+                ", price =" + price +
+                ", weight =" + weight +
+                ", frozen =" + frozen +
+                ", type =" + type +
                 '}';
     }
 }

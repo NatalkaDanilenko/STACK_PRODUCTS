@@ -3,20 +3,25 @@ package stack;
 import exception.CannotAddProductException;
 import products.Product;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Container<T extends Product> {
     private List<T> elements;
+
     public Container() {
+        elements = new ArrayList<>();
     }
 
     public void add(T element, boolean flag) throws CannotAddProductException {
         if (element == null) {
             throw new IllegalArgumentException("Product not found and can not add to Container.");
         }
-        if (flag){
-        addFirst(element);} else
+        if (!flag) {
+            addFirst(element);
+        } else {
             throw new CannotAddProductException("Can not add product from blackList");
+        }
     }
 
     public T getFirstAndRemove() {
@@ -29,8 +34,8 @@ public class Container<T extends Product> {
         return elements.get(0);
     }
 
-    public void addFirst(T element){
-        elements.add(0,element);
+    public void addFirst(T element) {
+        elements.add(0, element);
     }
 
 
@@ -40,6 +45,6 @@ public class Container<T extends Product> {
         for (Product product : elements) {
             sb.append(product).append(System.lineSeparator());
         }
-        return sb.toString();
+        return "\nStack:\n" + sb.toString();
     }
 }

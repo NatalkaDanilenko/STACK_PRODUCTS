@@ -19,6 +19,7 @@ public class Milk implements Product {
     public String getType() {
         return type;
     }
+
     @Override
     public double getPrice() {
         return price;
@@ -47,9 +48,9 @@ public class Milk implements Product {
 
     @Override
     public String toString() {
-        return "Milk{" +
-                "name='" + name + '\'' +
-                ", type='" + type + '\'' +
+        return "Fish {" +
+                "name =" + name +
+                ", type =" + type +
                 ", price=" + price +
                 ", litr=" + litr +
                 '}';

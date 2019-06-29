@@ -1,14 +1,13 @@
-package stack;
+package blacklist;
 
 import products.Fish;
 import products.Milk;
 
 public class CreateBlackList {
     private BlackList blackL;
-    private Milk milk;
-    private Fish fish;
 
     public CreateBlackList() {
+        blackL = new BlackList();
     }
 
     public BlackList getBlackL() {
@@ -16,8 +15,8 @@ public class CreateBlackList {
         return blackL;
     }
 
-    private void create(){
-        blackL.setTrueClasses(milk.getClass());
-        blackL.setTrueClasses(fish.getClass());
+    private void create() {
+        blackL.setBlackClasses(Milk.class);
+        blackL.setBlackClasses(Fish.class);
     }
 }
