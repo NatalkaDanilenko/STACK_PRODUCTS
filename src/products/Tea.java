@@ -22,7 +22,7 @@ public class Tea implements Product {
     public double getPrice() {
         return price;
     }
-
+    @Override
     public void setName(String name) {
         this.name = name;
     }

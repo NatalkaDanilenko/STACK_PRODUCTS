@@ -36,6 +36,11 @@ public class Fish implements Product {
     }
 
     @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
     public void setPrice(double price) {
         this.price = price;
     }

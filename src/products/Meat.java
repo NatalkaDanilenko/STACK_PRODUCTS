@@ -39,7 +39,7 @@ public class Meat implements Product {
     public String getName() {
         return name;
     }
-
+    @Override
     public void setName(String name) {
         this.name = name;
     }

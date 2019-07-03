@@ -150,7 +150,10 @@
       <change afterPath="$PROJECT_DIR$/../ZARAZA_THREADS/src/SynchronClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CAT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CAT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHONE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PHONE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/marshaling/StackXMLWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marshaling/StackXMLWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TRIANGLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TRIANGLE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VECTOR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VECTOR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homeWork18.04.19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork18.04.19/.idea/workspace.xml" afterDir="false" />
@@ -169,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/products/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="242">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -193,11 +196,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/marshaling/StackXMLWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            <state relative-caret-position="355">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,8 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Products.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="144">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -252,13 +255,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/products/Milk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="308">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="e#534#535#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -267,27 +268,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/products/Tea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="284">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="e#479#480#0" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/products/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -295,11 +290,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/products/Meat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="342">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
                 <element signature="e#845#846#0" expanded="true" />
                 <element signature="e#877#878#0" expanded="true" />
               </folding>
@@ -336,13 +329,13 @@
         <option value="$PROJECT_DIR$/src/stack/CreateBlackList.java" />
         <option value="$PROJECT_DIR$/src/stack/Container.java" />
         <option value="$PROJECT_DIR$/src/stack/Main.java" />
-        <option value="$PROJECT_DIR$/src/products/Product.java" />
-        <option value="$PROJECT_DIR$/src/products/Fish.java" />
+        <option value="$PROJECT_DIR$/src/products/DictionaryProduct.java" />
+        <option value="$PROJECT_DIR$/src/products/Milk.java" />
         <option value="$PROJECT_DIR$/src/products/Tea.java" />
         <option value="$PROJECT_DIR$/src/products/Meat.java" />
-        <option value="$PROJECT_DIR$/src/products/Milk.java" />
-        <option value="$PROJECT_DIR$/src/products/DictionaryProduct.java" />
         <option value="$PROJECT_DIR$/src/marshaling/StackXMLWorker.java" />
+        <option value="$PROJECT_DIR$/src/products/Product.java" />
+        <option value="$PROJECT_DIR$/src/products/Fish.java" />
       </list>
     </option>
   </component>
@@ -403,7 +396,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562188075886" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562188460040" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -459,7 +452,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="52" width="1400" height="760" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14653903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -542,70 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/Milk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/Meat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/Fish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/Tea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Products.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/products/DictionaryProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -626,6 +554,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/Tea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/Meat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/marshaling/StackXMLWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -642,13 +620,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/marshaling/StackXMLWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/Fish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

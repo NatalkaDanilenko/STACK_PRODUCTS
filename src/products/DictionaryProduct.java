@@ -40,11 +40,12 @@ public class DictionaryProduct {
 
     public Class getObjClass(String tClass){
         Set<Map.Entry<Class,String>> entrySet=objType.entrySet();
+        Class myClass = null;
         for (Map.Entry<Class,String> pair : entrySet) {
             if (tClass.equals(pair.getValue())) {
-                return pair.getKey();
+                myClass =  pair.getKey();
             }
         }
-
+        return myClass;
     }
 }

@@ -80,6 +80,8 @@ public class StackXMLWorker {
         productElement.setAttribute("type", tClass);
         Element name = document.createElement("name");
         name.setTextContent(product.getName());
+        Element price = document.createElement("price");
+        price.setTextContent(String.valueOf(product.getPrice()));
 
     }
 }
