@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product type="milk">
+			<name>MILK DANONE</name>
+			<typ>Almond</typ>
+			<price>32.2</price>
+			<litr>1.0</litr>
+	</product>
+	<product type="milk">
+			<name>MILK GALYCHYNA</name>
+			<typ>Soy</typ>
+			<price>32.2</price>
+			<litr>1.0</litr>
+	</product>
+	<product type="tea">
+			<name>TEA GRIENFILD</name>
+			<color>green</color>
+			<price>17.1</price>
+	</product>
+	<product type="tea">
+			<name>TEA MONARCH</name>
+			<color>black</color>
+			<price>34.0</price>
+	</product>
+	<product type="tea">
+			<name>TEA TIAN SCHAN</name>
+			<color>white</color>
+			<price>43.0</price>
+	</product>
+	<product type="fish">
+			<name>FISH QUEEN HEK</name>
+			<typ>hek</typ>
+			<price>126.0</price>
+			<weight>3.0</weight>
+			<frozen>true</frozen>
+	</product>
+	<product type="fish">
+			<name>FISH FLAGMAN</name>
+			<typ>cambala</typ>
+			<price>146.0</price>
+			<weight>2.7</weight>
+			<frozen>false</frozen>
+	</product>
+	<product type="meat">
+			<name>MEAT RIABA</name>
+			<typ>chicken</typ>
+			<price>96.0</price>
+			<weight>3.0</weight>
+			<frozen>true</frozen>
+	</product>
+	<product type="meat">
+			<name>MEAT PIG</name>
+			<typ>pig</typ>
+			<price>120.9</price>
+			<weight>1.4</weight>
+			<frozen>false</frozen>
+	</product>
+</products>

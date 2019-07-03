@@ -1,7 +1,7 @@
 package products;
 
 public class Fish implements Product {
-    private String type;
+    private String typ;
     private double price;
     private double weight;
     private boolean frozen;
@@ -10,20 +10,19 @@ public class Fish implements Product {
     public Fish() {
     }
 
-    public Fish(String name, String type, double price, double weight, boolean frozen) {
+    public Fish(String name, String typ, double price, double weight, boolean frozen) {
         this.name = name;
-        this.type = type;
+        this.typ = typ;
         this.price = price;
         this.weight = weight;
         this.frozen = frozen;
     }
-
-    public String getType() {
-        return type;
+    public String getTyp() {
+        return typ;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setTyp(String typ) {
+        this.typ = typ;
     }
 
     @Override
@@ -63,7 +62,7 @@ public class Fish implements Product {
                 ", price =" + price +
                 ", weight =" + weight +
                 ", frozen =" + frozen +
-                ", type =" + type +
+                ", typ =" + typ +
                 '}';
     }
 }

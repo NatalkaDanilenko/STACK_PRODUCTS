@@ -1,0 +1,70 @@
+{
+  "products": {
+    "product": [
+      {
+        "-type": "milk",
+        "name": "MILK DANONE",
+        "typ": "Almond",
+        "price": "32.2",
+        "litr": "1.0"
+      },
+      {
+        "-type": "milk",
+        "name": "MILK GALYCHYNA",
+        "typ": "Soy",
+        "price": "32.2",
+        "litr": "1.0"
+      },
+      {
+        "-type": "tea",
+        "name": "TEA GRIENFILD",
+        "color": "green",
+        "price": "17.1"
+      },
+      {
+        "-type": "tea",
+        "name": "TEA MONARCH",
+        "color": "black",
+        "price": "34.0"
+      },
+      {
+        "-type": "tea",
+        "name": "TEA TIAN SCHAN",
+        "color": "white",
+        "price": "43.0"
+      },
+      {
+        "-type": "fish",
+        "name": "FISH QUEEN HEK",
+        "typ": "hek",
+        "price": "126.0",
+        "weight": "3.0",
+        "frozen": "true"
+      },
+      {
+        "-type": "fish",
+        "name": "FISH FLAGMAN",
+        "typ": "cambala",
+        "price": "146.0",
+        "weight": "2.7",
+        "frozen": "false"
+      },
+      {
+        "-type": "meat",
+        "name": "MEAT RIABA",
+        "typ": "chicken",
+        "price": "96.0",
+        "weight": "3.0",
+        "frozen": "true"
+      },
+      {
+        "-type": "meat",
+        "name": "MEAT PIG",
+        "typ": "pig",
+        "price": "120.9",
+        "weight": "1.4",
+        "frozen": "false"
+      }
+    ]
+  }
+}

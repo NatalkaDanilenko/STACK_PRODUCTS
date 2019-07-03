@@ -2,27 +2,31 @@ package products;
 
 public class Milk implements Product {
     private String name;
-    private String type;
+    private String typ;
     private double price;
     private double litr;
 
     public Milk() {
     }
 
-    public Milk(String name, String type, double price, double litr) {
+    public Milk(String name, String typ, double price, double litr) {
         this.name = name;
-        this.type = type;
+        this.typ = typ;
         this.price = price;
         this.litr = litr;
     }
 
-    public String getType() {
-        return type;
+    public String getTyp() {
+        return typ;
     }
 
     @Override
     public double getPrice() {
         return price;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
@@ -34,8 +38,8 @@ public class Milk implements Product {
         return litr;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setTyp(String typ) {
+        this.typ = typ;
     }
 
     public void setPrice(double price) {
@@ -50,7 +54,7 @@ public class Milk implements Product {
     public String toString() {
         return "Fish {" +
                 "name =" + name +
-                ", type =" + type +
+                ", typ =" + typ +
                 ", price=" + price +
                 ", litr=" + litr +
                 '}';

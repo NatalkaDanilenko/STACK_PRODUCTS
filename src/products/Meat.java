@@ -1,7 +1,7 @@
 package products;
 
 public class Meat implements Product {
-    private String type;
+    private String typ;
     private double price;
     private double weight;
     private boolean frozen;
@@ -10,20 +10,20 @@ public class Meat implements Product {
     public Meat() {
     }
 
-    public Meat(String name, String type, double price, double weight, boolean frozen) {
+    public Meat(String name, String typ, double price, double weight, boolean frozen) {
         this.name = name;
-        this.type = type;
+        this.typ = typ;
         this.price = price;
         this.weight = weight;
         this.frozen = frozen;
     }
 
-    public String getType() {
-        return type;
+    public String getTyp() {
+        return typ;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setTyp(String typ) {
+        this.typ = typ;
     }
 
     @Override
@@ -38,6 +38,10 @@ public class Meat implements Product {
     @Override
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public double getWeight() {
@@ -63,7 +67,7 @@ public class Meat implements Product {
                 ", price =" + price +
                 ", weight =" + weight +
                 ", frozen =" + frozen +
-                ", type =" + type +
+                ", typ =" + typ +
                 '}';
     }
 }
