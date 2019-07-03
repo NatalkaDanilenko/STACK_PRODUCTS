@@ -32,6 +32,11 @@ public class Tea implements Product {
         return name;
     }
 
+    @Override
+    public Class getType() {
+        return Tea.class;
+    }
+
     public void setColor(String color) {
         this.color = color;
     }

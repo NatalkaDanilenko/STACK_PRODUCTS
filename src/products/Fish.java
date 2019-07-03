@@ -34,6 +34,12 @@ public class Fish implements Product {
     public String getName() {
         return name;
     }
+
+    @Override
+    public Class getType() {
+        return Fish.class;
+    }
+
     @Override
     public void setPrice(double price) {
         this.price = price;

@@ -14,6 +14,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import products.DictionaryProduct;
 import products.Product;
 import stack.Container;
 
@@ -50,6 +51,7 @@ public class StackXMLWorker {
         // хочу в зависимости
         // от продукта возвращать только нужные атрибуты
         // типо для milk{name, typ, price, litr}
+
         String name = productTag.getElementsByTagName("name").item(0).getTextContent();
         String typ = productTag.getElementsByTagName("typ").item(0).getTextContent();
         double price = Double.valueOf(productTag.getElementsByTagName("price").item(0).getTextContent());
@@ -58,9 +60,20 @@ public class StackXMLWorker {
         double weight = Double.valueOf(productTag.getElementsByTagName("weight").item(0).getTextContent());
         boolean frozen = Boolean.valueOf(productTag.getElementsByTagName("frozen").item(0).getTextContent());
         // здеся как-то надо проверить какой же это класс* ?
-        Object myObject = new Object();//и тута соотв вместо Object - класс*
-        Product product = (Product)myObject;//приводим класс* к Product
+        DictionaryProduct dict = new DictionaryProduct();
+        Class classProduct = dict.getObjClass(tClass);
+
+        //и тута соотв вместо Object - класс*
+        Product product = (Product)myObject;//приводим класс* к Product ??
         return product;
+
+    }
+
+    public static Element elementFromProduct(Product product, Document document){
+        Element productElement = document.createElement("product");
+        DictionaryProduct dict = new DictionaryProduct(product);
+        String tClass = dict.getObjType();
+        productElement.setAttribute("type", tClass);
 
     }
 }
