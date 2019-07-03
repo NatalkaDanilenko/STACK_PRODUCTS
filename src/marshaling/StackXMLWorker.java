@@ -62,12 +62,29 @@ public class StackXMLWorker {
         // здеся как-то надо проверить какой же это класс* ?
         DictionaryProduct dict = new DictionaryProduct();
         Class classProduct = dict.getObjClass(tClass);
+        Product product = new Product() {
+            @Override
+            public double getPrice() {
+                return 0;
+            }
 
-        //и тута соотв вместо Object - класс*
+            @Override
+            public void setPrice(double price) {
 
+            }
 
+            @Override
+            public String getName() {
+                return null;
+            }
 
-        Product product = (Product)myObject;//приводим класс* к Product ??
+            @Override
+            public void setName(String name) {
+
+            }
+        };
+
+        // Хочу продукт привести к новому классу и навтюхать ему необходимые параметры
         return product;
 
     }
@@ -78,10 +95,14 @@ public class StackXMLWorker {
         DictionaryProduct dict = new DictionaryProduct(product);
         String tClass = dict.getObjType();
         productElement.setAttribute("type", tClass);
+        //общие для всех продуктов параметры
         Element name = document.createElement("name");
         name.setTextContent(product.getName());
         Element price = document.createElement("price");
         price.setTextContent(String.valueOf(product.getPrice()));
 
+        //различные параметры в зависимости от класса
+
+        return productElement;
     }
 }
