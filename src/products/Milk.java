@@ -34,11 +34,6 @@ public class Milk implements Product {
         return name;
     }
 
-    @Override
-    public Class getType() {
-        return Milk.class;
-    }
-
     public double getLitr() {
         return litr;
     }

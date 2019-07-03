@@ -64,6 +64,9 @@ public class StackXMLWorker {
         Class classProduct = dict.getObjClass(tClass);
 
         //и тута соотв вместо Object - класс*
+
+
+
         Product product = (Product)myObject;//приводим класс* к Product ??
         return product;
 
@@ -71,9 +74,12 @@ public class StackXMLWorker {
 
     public static Element elementFromProduct(Product product, Document document){
         Element productElement = document.createElement("product");
+
         DictionaryProduct dict = new DictionaryProduct(product);
         String tClass = dict.getObjType();
         productElement.setAttribute("type", tClass);
+        Element name = document.createElement("name");
+        name.setTextContent(product.getName());
 
     }
 }

@@ -40,11 +40,6 @@ public class Meat implements Product {
         return name;
     }
 
-    @Override
-    public Class getType() {
-        return Meat.class;
-    }
-
     public void setName(String name) {
         this.name = name;
     }

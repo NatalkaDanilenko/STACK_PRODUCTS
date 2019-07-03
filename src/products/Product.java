@@ -6,6 +6,4 @@ public interface Product {
     public void setPrice(double price);
 
     public String getName();
-
-    Class getType();
 }
