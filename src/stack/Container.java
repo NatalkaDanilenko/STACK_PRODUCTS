@@ -24,6 +24,10 @@ public class Container<T extends Product> {
         }
     }
 
+    public List<T> getElements() {
+        return elements;
+    }
+
     public T getFirstAndRemove() {
         T result = elements.get(0);
         elements.remove(0);

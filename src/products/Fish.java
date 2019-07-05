@@ -1,6 +1,10 @@
 package products;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Fish implements Product {
+    private static final String TYPE = "fish";
     private String typ;
     private double price;
     private double weight;
@@ -17,6 +21,16 @@ public class Fish implements Product {
         this.weight = weight;
         this.frozen = frozen;
     }
+@Override
+    public String getTYPE() {
+        return TYPE;
+    }
+
+    @Override
+    public void setTYPE(String type) {
+
+    }
+
     public String getTyp() {
         return typ;
     }
@@ -38,6 +52,18 @@ public class Fish implements Product {
     @Override
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public Map<String,Object> toMap(Product product) {
+        Map<String, Object> unicTags = new HashMap<>();
+        Fish currentFish = (Fish) product;
+        unicTags.put("name", currentFish.getName());
+        unicTags.put("price", currentFish.getPrice());
+        unicTags.put("weight", currentFish.getWeight());
+        unicTags.put("typ", currentFish.getTyp());
+        unicTags.put("frozen", currentFish.isFrozen());
+        return unicTags;
     }
 
     @Override

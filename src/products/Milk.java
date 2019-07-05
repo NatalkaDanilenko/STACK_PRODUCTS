@@ -1,6 +1,10 @@
 package products;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Milk implements Product {
+    private final String TYPE = "milk";
     private String name;
     private String typ;
     private double price;
@@ -16,6 +20,16 @@ public class Milk implements Product {
         this.litr = litr;
     }
 
+    @Override
+    public String getTYPE() {
+        return TYPE;
+    }
+
+    @Override
+    public void setTYPE(String type) {
+
+    }
+
     public String getTyp() {
         return typ;
     }
@@ -24,6 +38,7 @@ public class Milk implements Product {
     public double getPrice() {
         return price;
     }
+
     @Override
     public void setName(String name) {
         this.name = name;
@@ -58,5 +73,16 @@ public class Milk implements Product {
                 ", price=" + price +
                 ", litr=" + litr +
                 '}';
+    }
+
+    @Override
+    public Map<String, Object> toMap(Product product) {
+        Map<String, Object> unicTags = new HashMap<>();
+        Milk currentMilk = (Milk) product;
+        unicTags.put("name", currentMilk.getName());
+        unicTags.put("price", currentMilk.getPrice());
+        unicTags.put("litr", currentMilk.getLitr());
+        unicTags.put("typ", currentMilk.getTyp());
+        return unicTags;
     }
 }

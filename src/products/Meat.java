@@ -1,6 +1,10 @@
 package products;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Meat implements Product {
+    private final String TYPE = "meat";
     private String typ;
     private double price;
     private double weight;
@@ -16,6 +20,16 @@ public class Meat implements Product {
         this.price = price;
         this.weight = weight;
         this.frozen = frozen;
+    }
+
+    @Override
+    public String getTYPE() {
+        return TYPE;
+    }
+
+    @Override
+    public void setTYPE(String type) {
+
     }
 
     public String getTyp() {
@@ -69,5 +83,17 @@ public class Meat implements Product {
                 ", frozen =" + frozen +
                 ", typ =" + typ +
                 '}';
+    }
+
+    @Override
+    public Map<String,Object> toMap(Product product) {
+        Map<String, Object> unicTags = new HashMap<>();
+        Meat currentMeat = (Meat) product;
+        unicTags.put("name", currentMeat.getName());
+        unicTags.put("price", currentMeat.getPrice());
+        unicTags.put("frozen", currentMeat.isFrozen());
+        unicTags.put("typ", currentMeat.getTyp());
+        unicTags.put("weight", currentMeat.getWeight());
+        return unicTags;
     }
 }

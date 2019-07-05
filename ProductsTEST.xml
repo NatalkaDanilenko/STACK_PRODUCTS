@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<products>
+  <product type="meat">
+    <price>120.9</price>
+    <name>MEAT PIG</name>
+    <frozen>false</frozen>
+    <weight>1.4</weight>
+    <typ>pig</typ>
+  </product>
+  <product type="meat">
+    <price>96.0</price>
+    <name>MEAT RIABA</name>
+    <frozen>true</frozen>
+    <weight>3.0</weight>
+    <typ>chicken</typ>
+  </product>
+  <product type="tea">
+    <color>white</color>
+    <price>43.0</price>
+    <name>TEA TIAN SCHAN</name>
+  </product>
+  <product type="tea">
+    <color>black</color>
+    <price>34.0</price>
+    <name>TEA MONARCH</name>
+  </product>
+  <product type="tea">
+    <color>green</color>
+    <price>17.1</price>
+    <name>TEA GRIENFILD</name>
+  </product>
+</products>
