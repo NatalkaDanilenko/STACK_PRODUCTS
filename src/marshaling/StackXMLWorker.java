@@ -22,7 +22,7 @@ import products.*;
 import stack.Container;
 
 public class StackXMLWorker {
-    public static Container loadStackFromXMLFile(File file) {
+    public static Container loadStackFromXMLFile(String file) {
         Container stack = new Container();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {

@@ -107,13 +107,6 @@
       <change afterPath="$PROJECT_DIR$/../SORT_OBJECT_IN_CLASS/src/BallSizeComparator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SORT_OBJECT_IN_CLASS/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SORT_OBJECT_IN_CLASS/src/NullCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STACK_ELEMENTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/CannotAddProductException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/.idea/modules.xml" afterDir="false" />
@@ -159,14 +152,6 @@
       <change beforePath="$PROJECT_DIR$/../CAT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CAT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHONE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PHONE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marshaling/StackXMLWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marshaling/StackXMLWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Meat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Milk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Tea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TRIANGLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TRIANGLE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VECTOR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VECTOR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homeWork18.04.19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork18.04.19/.idea/workspace.xml" afterDir="false" />
@@ -185,11 +170,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stack/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="305">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,14 +182,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/products/Product.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProductsTEST.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="23" lean-forward="true" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -225,7 +207,7 @@
         <entry file="file://$PROJECT_DIR$/src/stack/Container.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="503">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
@@ -285,7 +267,7 @@
         <entry file="file://$PROJECT_DIR$/src/products/Tea.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
@@ -301,7 +283,7 @@
         <entry file="file://$PROJECT_DIR$/src/products/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
-              <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
@@ -317,7 +299,7 @@
         <entry file="file://$PROJECT_DIR$/src/products/Meat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
-              <caret line="92" column="54" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="92" selection-end-column="54" />
+              <caret line="92" column="54" selection-start-line="91" selection-start-column="8" selection-end-line="92" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
@@ -431,7 +413,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562362906036" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562363371304" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -489,7 +471,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.13876967" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.13876967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,14 +480,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5008726" side_tool="true" weight="0.14653903" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3233533" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3219858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4212766" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22695035" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32934132" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32934132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -577,7 +559,7 @@
     <entry file="file://$PROJECT_DIR$/src/products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -601,7 +583,7 @@
     <entry file="file://$PROJECT_DIR$/src/products/Meat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="92" column="54" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="92" selection-end-column="54" />
+          <caret line="92" column="54" selection-start-line="91" selection-start-column="8" selection-end-line="92" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
@@ -615,7 +597,7 @@
     <entry file="file://$PROJECT_DIR$/src/products/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
@@ -629,7 +611,7 @@
     <entry file="file://$PROJECT_DIR$/src/products/Tea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
@@ -663,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/src/stack/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
@@ -690,11 +672,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="305">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductsTEST.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-end-line="32" />
         </state>
       </provider>
     </entry>

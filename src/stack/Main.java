@@ -37,6 +37,10 @@ public class Main {
         }*/
 
 
+
+
+        StackXMLWorker.loadStackFromXMLFile("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/Products.xml");
+
         System.out.println(stack.toString());
 
         //System.out.println("First product in stack " + stack.getFirst());
