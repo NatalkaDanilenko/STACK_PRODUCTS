@@ -7,7 +7,6 @@ import marshaling.StackXMLWorker;
 import products.*;
 import java.io.File;
 import java.util.List;
-import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +17,7 @@ public class Main {
         List<Product> products = createProducts.getProducts();
         for (Product product : products) {
             try {
-                stack.add((Product) product, black.check(product));
+                stack.addNewProduct((Product) product, black.check(product));
             } catch (CannotAddProductException e) {
                 System.out.println(" : " + product.getClass() + " " + ((Product) product).getName());
             }
@@ -30,7 +29,7 @@ public class Main {
         CreateProducts products = new CreateProducts();
         for (Object product : products.getProducts()) {
             try {
-                stack.add((Product) product, black.check(product));
+                stack.addNewProduct((Product) product, black.check(product));
             } catch (CannotAddProductException e) {
                 System.out.println(" : " + product.getClass() + " " + ((Product) product).getName());
             }

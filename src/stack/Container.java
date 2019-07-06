@@ -13,14 +13,14 @@ public class Container<T extends Product> {
         elements = new ArrayList<>();
     }
 
-    public void add(T element, boolean flag) throws CannotAddProductException {
+    public void addNewProduct(T element, boolean flag) throws CannotAddProductException {
         if (element == null) {
-            throw new IllegalArgumentException("Product not found and can not add to Container.");
+            throw new IllegalArgumentException("Product not found and can not addNewProduct to Container.");
         }
         if (!flag) {
             addFirst(element);
         } else {
-            throw new CannotAddProductException("Can not add product from blackList");
+            throw new CannotAddProductException("Can not addNewProduct product from blackList");
         }
     }
 
