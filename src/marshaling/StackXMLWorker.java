@@ -79,7 +79,7 @@ public class StackXMLWorker {
     }
 
     @Nullable
-    private static Product createNewProduct(String type) {
+    public static Product createNewProduct(String type) {
         if (type.equals("milk")) {
             return new Milk();
         }

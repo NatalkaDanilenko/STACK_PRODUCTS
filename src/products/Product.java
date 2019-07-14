@@ -9,7 +9,7 @@ public interface Product {
     @NotNull
     public String getTYPE();
 
-    public void setTYPE(String type);
+    public void setTYPE(ExistProducts type);
 
     @NotNull
     public Map<String, Object> toMap(Product product);

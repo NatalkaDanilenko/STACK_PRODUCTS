@@ -21,14 +21,15 @@ public class Fish implements Product {
         this.weight = weight;
         this.frozen = frozen;
     }
-@Override
+
+    @Override
     public String getTYPE() {
         return TYPE;
     }
 
     @Override
-    public void setTYPE(String type) {
-
+    public void setTYPE(ExistProducts type) {
+        type.toString();
     }
 
     public String getTyp() {
@@ -55,7 +56,7 @@ public class Fish implements Product {
     }
 
     @Override
-    public Map<String,Object> toMap(Product product) {
+    public Map<String, Object> toMap(Product product) {
         Map<String, Object> unicTags = new HashMap<>();
         Fish currentFish = (Fish) product;
         unicTags.put("name", currentFish.getName());

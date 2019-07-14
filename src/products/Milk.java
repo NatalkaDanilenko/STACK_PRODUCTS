@@ -26,8 +26,8 @@ public class Milk implements Product {
     }
 
     @Override
-    public void setTYPE(String type) {
-
+    public void setTYPE(ExistProducts type) {
+        type.toString();
     }
 
     public String getTyp() {

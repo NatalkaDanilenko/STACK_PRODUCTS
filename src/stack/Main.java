@@ -3,6 +3,7 @@ package stack;
 import blacklist.BlackList;
 import blacklist.CreateBlackList;
 import exception.CannotAddProductException;
+import marshaling.StackJSONWorker;
 import marshaling.StackXMLWorker;
 import products.*;
 import java.io.File;
@@ -19,7 +20,7 @@ public class Main {
             try {
                 stack.addNewProduct((Product) product, black.check(product));
             } catch (CannotAddProductException e) {
-                System.out.println(" : " + product.getClass() + " " + ((Product) product).getName());
+                //System.out.println(" : " + product.getClass() + " " + ((Product) product).getName());
             }
         }
 
@@ -38,12 +39,14 @@ public class Main {
 
 
 
-        StackXMLWorker.loadStackFromXMLFile("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/Products.xml");
+        //StackXMLWorker.loadStackFromXMLFile("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/Products.xml");
 
-        System.out.println(stack.toString());
+        //System.out.println(stack.toString());
 
         //System.out.println("First product in stack " + stack.getFirst());
 
+        StackJSONWorker.saveToJSONFile(stack, new File("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/ProductsTEST.json"));
+        StackJSONWorker.loadFromJSON(new File("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/Products.json"));
     }
 
 }
