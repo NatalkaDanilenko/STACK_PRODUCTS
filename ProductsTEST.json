@@ -1,0 +1,40 @@
+{
+  "products": {
+    "product": [
+      {
+        "price": 120.9,
+        "-type": "meat",
+        "name": "MEAT PIG",
+        "frozen": false,
+        "weight": 1.4,
+        "typ": "pig"
+      },
+      {
+        "price": 96.0,
+        "-type": "meat",
+        "name": "MEAT RIABA",
+        "frozen": true,
+        "weight": 3.0,
+        "typ": "chicken"
+      },
+      {
+        "color": "white",
+        "price": 43.0,
+        "-type": "tea",
+        "name": "TEA TIAN SCHAN"
+      },
+      {
+        "color": "black",
+        "price": 34.0,
+        "-type": "tea",
+        "name": "TEA MONARCH"
+      },
+      {
+        "color": "green",
+        "price": 17.1,
+        "-type": "tea",
+        "name": "TEA GRIENFILD"
+      }
+    ]
+  }
+}

@@ -46,7 +46,8 @@ public class Main {
         //System.out.println("First product in stack " + stack.getFirst());
 
         StackJSONWorker.saveToJSONFile(stack, new File("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/ProductsTEST.json"));
-        StackJSONWorker.loadFromJSON(new File("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/Products.json"));
+        //StackJSONWorker.loadFromJSON(new File("/Users/nataliadanilenko/Documents/GIT/STACK_ELEMENTS/Products.json"));
+        System.out.println(stack.toString());
     }
 
 }

@@ -5,10 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -25,15 +22,16 @@ public class StackJSONWorker {
     public static void saveToJSONFile(Container stack, File file) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         Map<String, Map<String, Object>> map = new HashMap<>();
-        List<Map<String, Object>> listProduct = null;
+        List<Map<String, Object>> listProduct = new ArrayList<>();
         for (Product product : (List<Product>) stack.getElements()) {
             Map<String, Object> currentProduct = new HashMap<>();
             currentProduct.put("-type", product.getTYPE());
             currentProduct.putAll(product.toMap(product));
             listProduct.add(currentProduct);
         }
-        map.put("products", (Map<String, Object>) new HashMap<>().put("product", listProduct));
-
+        Map<String, Object> newMap = new HashMap<>();
+        newMap.put("product", listProduct);
+        map.put("products", newMap);
         String gsonSt = gson.toJson(map);
         try (PrintWriter pw = new PrintWriter(file)) {
             pw.println(gsonSt);
@@ -65,7 +63,7 @@ public class StackJSONWorker {
 
     @Nullable
     private static List<Product> getEachProduct(Map<String, Object> readProduct) {
-        List<Product> listProduct = null;
+        List<Product> listProduct = new ArrayList<>();
         List<Map<String, Object>> products = (List<Map<String, Object>>) readProduct.get("product");
         for (Map<String, Object> product : products) {
             String type = (String) product.get("-type");
