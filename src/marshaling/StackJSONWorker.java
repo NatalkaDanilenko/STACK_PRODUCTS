@@ -13,6 +13,7 @@ import com.google.gson.JsonIOException;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 import com.sun.istack.internal.Nullable;
+import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
 import products.Product;
 import stack.Container;
 
@@ -70,10 +71,8 @@ public class StackJSONWorker {
             Product eachProduct = createNewProduct(type);
             if (eachProduct != null) {
                 Map<String, Object> unicTags = eachProduct.toMap(eachProduct);
-                unicTags.forEach((key, value) -> value = product.get(key));
-                if (eachProduct != null) {
-                    listProduct.add(eachProduct);
-                }
+                unicTags.replaceAll((key, value) ->  product.get(key));
+                listProduct.add(eachProduct.toProduct(unicTags));
             }
         }
         return listProduct;

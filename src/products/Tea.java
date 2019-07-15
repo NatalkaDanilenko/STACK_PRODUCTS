@@ -1,5 +1,7 @@
 package products;
 
+import com.sun.istack.internal.Nullable;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -73,5 +75,16 @@ public class Tea implements Product {
         unicTags.put("price", currentTea.getPrice());
         unicTags.put("color", currentTea.getColor());
         return unicTags;
+    }
+
+    @Override
+    @Nullable
+    public Product toProduct(Map<String, Object> product) {
+        if (product == null){
+            return null;
+        }
+        return new Tea((String) product.get("name"),
+                (String) product.get("color"),
+                (Double) product.get("price"));
     }
 }

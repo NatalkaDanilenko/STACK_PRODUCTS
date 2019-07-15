@@ -1,5 +1,7 @@
 package products;
 
+import com.sun.istack.internal.Nullable;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -97,5 +99,18 @@ public class Fish implements Product {
                 ", frozen =" + frozen +
                 ", typ =" + typ +
                 '}';
+    }
+
+    @Override
+    @Nullable
+    public Product toProduct(Map<String, Object> product) {
+        if (product == null){
+            return null;
+        }
+        return new Fish((String) product.get("name"),
+                (String) product.get("typ"),
+                (Double) product.get("price"),
+                (Double) product.get("weight"),
+                (Boolean) product.get("frozen"));
     }
 }
